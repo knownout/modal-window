@@ -1,4 +1,4 @@
-# 🧱 React components library
+# 🧊 React modal window component
 
 Simple React component for creating modal windows.
 
