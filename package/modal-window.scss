@@ -96,12 +96,4 @@ div.modal-window {
             opacity: 0;
         }
     }
-
-    @media screen and (max-width: 370px) {
-        place-items: flex-end center;
-
-        div.modal-window-container {
-            margin: 5px 5px 10px;
-        }
-    }
 }
