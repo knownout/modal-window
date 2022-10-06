@@ -3,7 +3,7 @@
 Simple React component for creating modal windows.
 
 Перед использованием модального окна его необходимо добавить в
-контроллер (см. https://github.com/re-knownout/modal-window-controller).
+контроллер (см. https://github.com/knownout/modal-window-controller).
 Поскольку добавление модального окна в контроллер происходит единожды, можем
 сделать это в эффекте:
 
@@ -33,5 +33,5 @@ useEffect(() => {
 modalWindowController.openModal("my-modal");
 ```
 
-re-knownout - https://github.com/re-knownout/
+knownout - https://github.com/knownout/
 <br>knownout@hotmail.com

@@ -12,11 +12,12 @@ const packageConfig = Object.assign(defaultConfig, {
         library: {
             name: "modal-window",
             type: "umd"
-        }
+        },
+        clean: true
     },
 
     entry: {
-        "modal-window": path.resolve(__dirname, "package", "modal-window"),
+        "modal-window": path.resolve(__dirname, "package", "modal-window")
     },
 
     plugins: [
@@ -53,7 +54,7 @@ const packageConfig = Object.assign(defaultConfig, {
             commonjs: "mobx",
             commonjs2: "mobx",
             amd: "mobx"
-        },
+        }
     },
 
     optimization: {
