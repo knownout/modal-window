@@ -79,7 +79,7 @@ div.modal-window {
         }
     }
 
-    &.open {
+    &.open, &.opening {
         opacity: 1;
 
         div.modal-window-container {
