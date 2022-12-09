@@ -1,6 +1,6 @@
 {
     "name": "@knownout/modal-window",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "author": "Alexandr Slavinskii",
     "license": "MIT",
     "description": "React modal window component",
