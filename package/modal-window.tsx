@@ -31,6 +31,9 @@ interface IModalWindowProps {
     /** Заголовок модального окна */
     modalTitle: string;
 
+    /** дополнительный класс модального окна */
+    className?: string;
+
     /**
      * Если установлено, то перезаписывает собой базовое событие
      * закрытия модального окна (при клике вне или на крестик).
@@ -109,7 +112,7 @@ const _ModalWindow = forwardRef<HTMLDivElement, IModalWindowProps>((
 
     return createPortal(
         <div className={ classNames(
-            "modal-window", props.modalKey, modalWindowController.getModalState(props.modalKey)
+            "modal-window", props.modalKey, modalWindowController.getModalState(props.modalKey), props.className ?? '',
         ) } ref={ ref } onClick={ onBackgroundClick }>
             <div className="modal-window-container">
                 <div className="modal-window-container-title">
